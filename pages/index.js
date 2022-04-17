@@ -340,17 +340,17 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>CryptoDevs DAO</title>
-        <meta name="description" content="CryptoDevs DAO" />
+        <title>JParkerDevs DAO</title>
+        <meta name="description" content="JParkerDevs DAO" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
-          <div className={styles.description}>Welcome to the DAO!</div>
+          <h1 className={styles.title}>Welcome to JParker Devs!</h1>
+          <div className={styles.description}>Welcome to the DAO of Pow!</div>
           <div className={styles.description}>
-            Your CryptoDevs NFT Balance: {nftBalance}
+            Your JParkerDevs NFT Balance: {nftBalance}
             <br />
             Treasury Balance: {formatEther(treasuryBalance)} ETH
             <br />
