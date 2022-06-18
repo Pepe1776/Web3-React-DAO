@@ -28,8 +28,8 @@
 }
 
 .image {
-  width: 70%;
-  height: 50%;
+  width: 170%;
+  height: auto;
   margin-left: 20%;
 }
 
@@ -108,5 +108,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .image {
+    width: 50%;
   }
 }
